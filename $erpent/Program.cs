@@ -54,7 +54,7 @@ namespace Serpent
                 {
                     while (true)
                     {
-                        Thread.Sleep(200);
+                        Thread.Sleep(50);
                         if (cenneMangee)
                         {
                             Console.SetCursorPosition(cenne.X, cenne.Y);
